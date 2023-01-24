@@ -9,4 +9,16 @@ public class Libro
         this.autor = autor;
         this.libreria = libreria;
     }
+    
+    public String getAutor() {
+        return autor;
+    }
+    
+    public String getTitulo() {
+        return titulo;
+    }
+    
+    public Libreria getLibreria() {
+        return libreria;
+    }
 }
