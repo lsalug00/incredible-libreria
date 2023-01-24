@@ -22,4 +22,9 @@ public class Libreria{
     public String getDireccion () {
         return direccion;
     }
+    
+    public void imprimirDetalles(){
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Direccion: " + direccion);
+    }
 }
