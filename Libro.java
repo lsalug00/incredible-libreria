@@ -21,4 +21,16 @@ public class Libro
     public Libreria getLibreria() {
         return libreria;
     }
+    
+    public void setAutor(String autor){
+        this.autor = autor;
+    }
+    
+    public void setTitulo(String titulo){
+        this.titulo = titulo;
+    }
+    
+    public void setLibreria(Libreria libreria){
+        this.libreria = libreria;
+    }
 }
