@@ -33,4 +33,11 @@ public class Libro
     public void setLibreria(Libreria libreria){
         this.libreria = libreria;
     }
+    
+    public void imprimirDetalles(){
+        System.out.println("Titulo: " + titulo);
+        System.out.println("Autor: " + autor);
+        System.out.println("Libreria:");
+        libreria.imprimirDetalles();
+    }
 }
